@@ -24,7 +24,7 @@ int main() {
 
     // 나머지 동생들과의 차이를 계산하여 GCD를 구하기
     for (int i = 1; i < N; i++) {
-        result = gcd(result, abs(sisters[i] - S));
+        result= gcd(result, abs(sisters[i] - S));
     }
 
     // 가능한 D값의 최댓값 출력

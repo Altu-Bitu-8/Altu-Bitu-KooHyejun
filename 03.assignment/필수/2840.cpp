@@ -37,7 +37,7 @@ int main() {
         if (find(dq.begin(), dq.end() - 1, word) != dq.end() - 1) {
             isValid = false;
         }
-        dq.back() = word;
+        dq.back()= word;
     }
 
     // 최종 상태에서 한 번 더 회전 -> 원래 상태로 맞추기
