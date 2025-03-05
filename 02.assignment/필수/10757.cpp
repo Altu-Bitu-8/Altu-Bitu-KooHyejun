@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    string a, b;
+    string a,b;
     cin >> a >> b;
 
     int carry = 0;
